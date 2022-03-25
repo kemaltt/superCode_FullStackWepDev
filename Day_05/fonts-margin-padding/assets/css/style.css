@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Palette+Mosaic&display=swap');
+
+/* font-family: 'Roboto', sans-serif; 
+
+font-family: 'Hurricane', cursive;
+font-family: 'Palette Mosaic', cursive;
+*/
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: 'Hurricane', cursive;
+    color: blue;
+    text-align: right;
+}
+
+h4 {
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 6px;
+}
+
+h5 {
+    color: rgb(127, 130, 40);
+}
+
+h6 {
+    color: rgba(148, 40, 67, 0.5);
+    /* x-achse,y-achse/blur/color */
+    text-shadow: 2px 2px 2px black;
+}
+
+p {
+    color: #006400;
+    text-align: justify;
+}
+
+div {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+div a {
+    background: tomato;
+    color: gold;
+    text-decoration: none;
+    /* top/right/bottom/left */
+    padding: 10px 20px 10px 20px;
+    /* top&bottom/rigt&left */
+    padding: 10px 20px;
+}

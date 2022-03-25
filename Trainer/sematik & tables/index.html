@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantik & tables</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Semantik Heaven -->
+    <!-- <header>
+        <nav>
+            <ul>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="" alt="bild1">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+        <section>
+            <h1>Headline 1</h1>
+            <h2>Subheadline</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <img src="" alt="bild2">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Impressum</li>
+            <li>Datenschutz</li>
+            <li>Jobs</li>
+        </ul>
+    </footer> -->
+
+    <!-- Div Hölle -->
+    <!-- NoGo Zone -->
+
+    <!-- <div>
+        <div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div>
+            <img src="" alt="">
+            <p></p>
+        </div>
+        <div>
+            <h1></h1>
+            <h2></h2>
+            <div>
+                <p></p>
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+    <div>
+        <ul>
+            <li>Impressum</li>
+            <li>Datenschutz</li>
+            <li>Jobs</li>
+        </ul>
+    </div> -->
+
+    <!-- Tables -->
+
+    <!-- <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro commercial Moctezuma</td>
+            <td>Francesco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="2" style="background: red;">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Cipi</td>
+            <td>SuperCoder</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>SuperCoder</td>
+            <td>27</td>
+        </tr>
+    </table> -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfreds Futtertruhe</td>
+                <td rowspan="2">Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro commercial Cancun</td>
+                <td>Mexico</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Lustig Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

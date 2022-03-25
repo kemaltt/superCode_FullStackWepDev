@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@500&display=swap');
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(0, 128, 128, 0.5);
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 10px;
+}
+
+section h2 {
+    word-spacing: 6px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section h2+p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+section+section {
+    text-indent: 15px;
+    font-style: italic;
+    background: rgba(0, 128, 128, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+section>p~p {
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+    color: black;
+}
+
+article ol {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+article a {
+    text-decoration: none;
+    text-decoration: line-through;
+    color: rgba(0, 128, 128, 0.5);
+}

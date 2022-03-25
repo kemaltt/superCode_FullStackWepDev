@@ -1,0 +1,12 @@
+section {
+    border: solid #2e8b57 2px;
+    border-radius: 10px;
+}
+
+div>h3+p {
+    color: #2e8b57;
+}
+
+div>h3+p+p {
+    color: grey;
+}

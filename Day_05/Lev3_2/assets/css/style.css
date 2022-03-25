@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+h1 {
+    background: #333;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 2px 2px #FF0000;
+    line-height: 100px;
+    text-align: center;
+}
+
+h2 {
+    background: lightgreen;
+    font-family: 'Pacifico', cursive;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+p {
+    word-spacing: 7px;
+    font-family: 'Lato', sans-serif;
+}
+
+p strong {
+    color: gold;
+    word-spacing: 3px;
+}
+
+p em {
+    color: red;
+    word-spacing: 5px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+}
+
+ol {
+    color: crimson;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+h4 {
+    background: yellow;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 32px;
+    word-spacing: 6px;
+    text-shadow: -7px 5px grey;
+}
+
+h5 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    background: lightgray;
+}
+
+ul li {
+    line-height: 30px;
+}

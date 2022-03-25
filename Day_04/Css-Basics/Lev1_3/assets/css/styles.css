@@ -1,0 +1,16 @@
+nav {
+    background-color: lightgrey;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+main section div p span {
+    color: red;
+}

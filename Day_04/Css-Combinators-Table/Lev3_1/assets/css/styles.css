@@ -1,0 +1,16 @@
+table thead tr th {
+    background-color: greenyellow;
+}
+
+table tbody tr th+td {
+    background-color: grey;
+}
+
+tfoot tr th+td {
+    background-color: red;
+}
+
+tbody,
+tfoot {
+    background-color: yellow;
+}

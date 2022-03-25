@@ -1,0 +1,16 @@
+article p {
+    padding-left: 20px;
+}
+
+article>h2+p,
+div>h2+p {
+    background-color: yellow;
+}
+
+h2~p {
+    border: solid black;
+}
+
+li p {
+    color: green;
+}

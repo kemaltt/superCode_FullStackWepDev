@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=he, initial-scale=1.0">
+    <title>semantik & tables</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SEMANTIK -->
+    <!-- <header>
+        <nav>
+            <ul>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="" alt="bild1">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+        <section>
+            <h1>Headline 1</h1>
+            <h2>Subheadline</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <img src="" alt="bild2">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>Imperessum</li>
+            <li>Datenschutz</li>
+            <li>Jobs</li>
+        </ul>
+    </footer> -->
+
+    <!-- Div Hölle -->
+    <!-- NoGo Zone -->
+
+    <!-- Tables ------------------------------------------>
+    <table>
+        <!-- table row -->
+        <tr>
+            <!-- table header -->
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <!-- table data -->
+            <td>Alfreds</td>
+            <td>Maria</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro commercial</td>
+            <td>Francesco</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+    </table>
+
+    <br>
+    <!-- ----------------colspan&rowspan------------------------------------- -->
+    <table>
+        <tr>
+            <th colspan="2" style="background-color: coral;">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Cipi</td>
+            <td>SuperCoder</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Alex</td>
+            <td>SuperCoder</td>
+            <td>27</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+
+        <tr>
+
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+
+            <td>Alfreds</td>
+            <td rowspan="2" style="background-color: blueviolet;"> Maria</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro commercial</td>
+            <!-- löschen -->
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

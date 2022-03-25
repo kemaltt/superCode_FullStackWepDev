@@ -1,0 +1,44 @@
+h1,
+p {
+    color: green;
+}
+
+section p {
+    background-color: black;
+    color: yellow;
+}
+
+section div p {
+    color: aqua;
+}
+
+section div article p {
+    color: red;
+}
+
+
+/*Child Selektor A>B
+wählt nur direkte Kinder von A aus
+*/
+
+section>p {
+    font-size: 20px;
+}
+
+section>div>p {
+    font-size: 30px;
+}
+
+
+/*Allgemeinen Geschwister-selektor A~B */
+
+section~p {
+    color: blue;
+}
+
+
+/*Selektor für benachbarte Geschwister A+B */
+
+div+p {
+    color: orange;
+}

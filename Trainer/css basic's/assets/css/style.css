@@ -1,0 +1,71 @@
+/* Einfacher Selektor */
+
+p {
+    color: crimson;
+}
+
+/* Aufzählungs Selektor */
+
+p, h1 {
+    color: green;
+}
+
+/* Absteigender Selektor A B
+Prüft ob A vorhanden und geht dann auf B!
+Je spezifischer der Selektor desto hochwertiger ist er!
+*/
+
+section p {
+    background-color: black;
+    color: yellow;
+}
+
+section div p {
+    color: aqua;
+}
+
+section div div p {
+    color: red;
+}
+
+/* Child Selektor A > B
+Wählt nur direkte Kinder von A aus
+*/
+
+section > p {
+    font-size: 20px;
+}
+
+section > div > p{
+    font-size: 30px;
+}
+
+/* Allgemeinen Geschwister-Selektor A ~ B */
+
+section ~ p{
+    color: blue;
+    font-size: 26px;
+}
+
+/* Selektor für benachbarte Geschwister A + B */
+
+div + p{
+    color: orange;
+}
+
+/* ============================== */
+
+div{
+    background-image: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* h2{
+    background-color: aqua;
+}
+
+a{
+    background-color: red;
+} */

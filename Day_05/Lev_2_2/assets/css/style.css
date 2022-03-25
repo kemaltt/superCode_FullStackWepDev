@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Fredoka+One&family=Hurricane&family=Inspiration&family=Open+Sans:wght@300&family=Pacifico&family=Press+Start+2P&family=Raleway:wght@300&family=Ramaraja&display=swap');
+
+/* 
+font-family: 'Chelsea Market', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Hurricane', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ramaraja', serif;
+*/
+
+h1 {
+    background: greenyellow;
+    line-height: 100px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Pacifico', cursive;
+}
+
+p em {
+    text-shadow: 1px 1px 1px red;
+    font-family: 'Open Sans', sans-serif;
+}
+
+strong {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+}

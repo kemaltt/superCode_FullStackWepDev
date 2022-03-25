@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Inspiration&family=Open+Sans:wght@300&family=Raleway:wght@300&family=Ramaraja&family=Roboto+Condensed:wght@300&display=swap');
+
+/* 
+font-family: 'Hurricane', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ramaraja', serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
+
+h1 {
+    background: grey;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+section p {
+    font-family: 'Raleway', sans-serif;
+}
+
+main p {
+    font-family: 'Ramaraja', serif;
+}
+
+aside p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav p {
+    font-family: 'Inspiration', cursive;
+}
+
+footer p {
+    font-family: 'Hurricane', cursive;
+}

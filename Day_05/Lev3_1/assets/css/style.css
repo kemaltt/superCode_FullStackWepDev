@@ -1,0 +1,32 @@
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    background: grey;
+    font-family: Tahoma;
+}
+
+main p {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+section p {
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+h2 {
+    letter-spacing: 6px;
+    word-spacing: 7px;
+    color: wheat;
+    text-shadow: 3px 3px 3px black;
+}
+
+ul {
+    background: lightgray;
+}
+
+ul li {
+    background: grey;
+}
