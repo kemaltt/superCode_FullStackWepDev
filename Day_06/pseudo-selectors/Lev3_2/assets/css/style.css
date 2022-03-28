@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+ul li:nth-of-type(3n+3) {
+    color: #311B92;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li:nth-of-type(5n+5) {
+    background: #FFF176;
+}
+
+
+/* ul li:nth-of-type(2n+2) {
+    text-decoration: underline;
+} */
+
+ul li:nth-child(even) {
+    text-decoration: underline;
+}
+
+ul li:nth-child(odd) {
+    list-style-type: square;
+}
+
+ul li:nth-of-type(7n+7) {
+    font-size: 1.6em;
+}
+
+ul li:first-child {
+    color: #E53935;
+}
+
+ul li:nth-of-type(4n+4) {
+    letter-spacing: 6px;
+}
+
+ul li:nth-of-type(13n+13) {
+    background: #FF8A80;
+}

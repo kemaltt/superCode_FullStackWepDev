@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+p::first-letter {
+    font-size: 36px;
+    color: aquamarine;
+}
+
+p::first-line {
+    text-transform: uppercase;
+    color: rgb(139, 139, 219);
+}
+
+h1,
+h2,
+h3 {
+    color: green;
+}
+
+h1::before {
+    content: "Hi!";
+    color: lightgreen;
+}
+
+h3::selection {
+    color: brown;
+    background: violet;
+}

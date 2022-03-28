@@ -1,0 +1,60 @@
+h3::first-letter {
+    color: #00796B;
+    font-size: 3rem;
+}
+
+h3:hover::first-letter {
+    color: #4FC3F7;
+}
+
+h3::first-letter:hover {
+    color: #4FC3F7;
+}
+
+ul :first-child::first-letter {
+    color: #4FC3F7;
+    font-size: 2rem;
+    text-decoration: overline;
+}
+
+ul :nth-child(2)::first-letter {
+    color: #C51162;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+ul :last-child::first-letter {
+    color: #64DD17;
+    font-size: 2rem;
+    text-decoration: line-through;
+}
+
+ul :last-child {
+    text-decoration: line-through;
+}
+
+section :first-child::first-line {
+    color: #37474F;
+    font-size: 1.3em;
+}
+
+section :first-child {
+    text-indent: 50px;
+}
+
+section p::first-letter {
+    font-size: 1.5em;
+    color: #D50000;
+}
+
+section p:not(p:first-child)::first-line {
+    color: green;
+}
+
+section p:hover:not(p:first-child)::first-line {
+    color: #303F9F;
+}
+
+section p {
+    font-weight: 600;
+}

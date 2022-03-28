@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+h3:hover {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul :first-child {
+    font-family: Tahoma;
+    color: #4E342E;
+}
+
+ul :nth-child(2) {
+    font-family: 'Montserrat', sans-serif;
+    color: #689F38;
+}
+
+ul :last-child {
+    font-family: 'Raleway', sans-serif;
+    color: #EF5350;
+}
+
+section :first-child {
+    color: #999;
+}
+
+section :not(section :last-child) {
+    font-size: 26px;
+}
+
+section p:nth-of-type(even) {
+    color: #0277bd;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 20px;
+}
+
+button:hover {
+    font-size: 24px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+button:active {
+    color: white;
+    background: linear-gradient(#e66465, #9198e5);
+}
