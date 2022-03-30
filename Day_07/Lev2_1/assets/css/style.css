@@ -1,0 +1,57 @@
+/*============================
+General Styles
+=========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    border: 2px dotted blue;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    border: 2px solid chocolate;
+    padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 8px 6px 5px rgb(145, 161, 212);
+}
+
+ol,
+ul {
+    border: 2px solid green;
+    padding: 20px;
+    margin: 10px auto;
+    width: 500px;
+}
+
+ol li,
+ul li {
+    margin-left: 30px;
+    border-bottom: 2px solid red;
+}
+
+h3 {
+    text-align: center;
+    border: 7px double blueviolet;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}

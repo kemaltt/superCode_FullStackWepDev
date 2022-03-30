@@ -1,0 +1,18 @@
+/*============================
+General Styles
+=========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+section {
+    width: 400px;
+    background-color: lightpink;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 20px;
+}

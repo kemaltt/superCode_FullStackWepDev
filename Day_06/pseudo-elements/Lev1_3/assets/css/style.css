@@ -7,7 +7,7 @@ h1:hover::first-letter {
     color: blue;
 }
 
-ul li {
+ul {
     list-style: none;
 }
 
@@ -23,48 +23,48 @@ ul li:first-child::after {
     content: url("../img/gym.png");
 }
 
-ul li:nth-child(2) {
+ul li:nth-of-type(2) {
     text-decoration: line-through;
 }
 
-ul li:nth-child(2)::before {
+ul li:nth-of-type(2)::before {
     content: url("../img/check.png");
 }
 
-ul li:nth-child(2)::after {
+ul li:nth-of-type(2)::after {
     content: url("../img/bill.png");
 }
 
-ul li:nth-child(3),
-ul li:nth-child(4) {
+ul li:nth-of-type(3),
+ul li:nth-of-type(4) {
     background: rgb(98, 220, 242);
 }
 
-ul li:nth-child(3)::before {
+ul li:nth-of-type(3)::before {
     content: url("../img/doing.png");
 }
 
-ul li:nth-child(3)::after {
+ul li:nth-of-type(3)::after {
     content: url("../img/dance.png");
 }
 
-ul li:nth-child(4)::before {
+ul li:nth-of-type(4)::before {
     content: url("../img/doing.png");
 }
 
-ul li:nth-child(4)::after {
+ul li:nth-of-type(4)::after {
     content: url("../img/eat.png");
 }
 
-ul li:nth-child(5) {
+ul li:nth-of-type(5) {
     text-decoration: underline;
 }
 
-ul li:nth-child(5)::before {
+ul li:nth-of-type(5)::before {
     content: url("../img/no.png");
 }
 
-ul li:nth-child(5)::after {
+ul li:nth-of-type(5)::after {
     content: url("../img/book.png");
 }
 

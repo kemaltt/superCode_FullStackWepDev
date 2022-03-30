@@ -1,0 +1,55 @@
+/* ========================
+        General Styles 
+==========================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ========================
+        Header Styles 
+==========================*/
+
+h1{
+    text-align:center;
+    border: 2px solid tomato;
+    /* top / right / bottom / left */
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+    margin: 20px 20px 20px 20px;
+    /* top & bottom / right & left */
+    margin: 20px 20px;
+    /* Wenn nur ein Wert dann für alle Seiten */
+    margin: 20px;
+    /* 3 Werte = top / right & left / bottom */
+    padding: 15px 20px 30px;
+}
+
+/* ========================
+        Main Styles 
+==========================*/
+
+main{
+    /* text-align: center; */
+    margin-top: 100px;
+}
+
+a{
+    background: brown;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: lightsalmon;
+    margin: 30px auto;
+}

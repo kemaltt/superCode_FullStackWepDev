@@ -1,0 +1,84 @@
+/*============================
+General Styles
+=========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+
+/*==============================
+Header Styles
+===================*/
+
+h1 {
+    text-align: center;
+    border: 2px solid tomato;
+    /* margin */
+    /* 1 */
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
+    /* 2 */
+    /* margin: 20px 20px 20px 20px; */
+    /* 3 */
+    /* margin: 20px 20px; */
+    /* 4 */
+    margin: 20px;
+    /* padding 3 Werte top-right_left-bottm*/
+    padding: 15px 20px 30px;
+}
+
+
+/*==============================
+Main Styles
+===================*/
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    background: brown;
+    color: white;
+    text-decoration: none;
+    /* top_bottom -left_right*/
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+div {
+    background-color: lightsalmon;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+section {
+    text-align: center;
+}
+
+section div:nth-of-type(1) {
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 30px auto;
+    display: inline-block;
+}
+
+section div:nth-of-type(2) {
+    background-color: lightpink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 30px auto;
+    display: inline-block;
+}

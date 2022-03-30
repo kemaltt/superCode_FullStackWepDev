@@ -1,0 +1,23 @@
+/*============================
+General Styles
+=========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+div {
+    border: 5px solid black;
+    width: 500px;
+    margin: 50px auto;
+}
+
+p {
+    border: 15px solid black;
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 30px;
+}
