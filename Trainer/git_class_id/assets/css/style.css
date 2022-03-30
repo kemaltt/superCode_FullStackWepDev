@@ -1,32 +1,32 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-html {
+html{
     scroll-behavior: smooth;
 }
 
-#sectionOne {
+#sectionOne{
     background: tomato;
     height: 100vh;
     text-align: center;
 }
 
-#sectionTwo {
+#sectionTwo{
     background: gold;
     height: 100vh;
     text-align: center;
 }
 
-#sectionThree {
+#sectionThree{
     background: green;
     height: 100vh;
     text-align: center;
 }
 
-.headline {
+.headline{
     font-size: 48px;
     padding-top: 30px;
 }

@@ -16,7 +16,7 @@ font-family: 'Cinzel', serif;
     box-sizing: border-box;
 }
 
-header nav h1 {
+.header-logo {
     padding: 10px;
     padding-left: 30px;
     font-family: 'Cinzel', serif;
@@ -24,55 +24,69 @@ header nav h1 {
     background-color: #fff;
 }
 
-header div {
+.header-container {
     background-image: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-}
-
-header div {
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    /* padding-top: 200px;
+    padding-bottom: 200px; */
+    padding: 35vh 0;
 }
 
-header div h1 {
+.header-title {
     text-align: center;
     font-family: 'Cinzel', serif;
+    font-size: 48px;
     color: white;
     text-transform: uppercase;
-    width: 200px;
-    margin: 30px auto;
 }
 
-section {
+
+/* =======================
+          Main  
+====================== */
+
+#section-container {
     text-align: center;
-    margin: 50px;
+    padding: 0 150px;
 }
 
-section p {
+.section-description {
     margin-bottom: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
+.section-title {
     font-family: 'Cinzel', serif;
     margin: 50px;
+    color: #999;
 }
 
-section div img {
-    width: 300px;
-    margin: 15px;
+.image {
+    width: 280px;
+    margin: 10px;
     border-radius: 15px;
 }
 
-article {
+.article-container {
+    text-align: left;
     margin-top: 50px;
     padding: 50px;
 }
 
+.article-title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin: 30px;
+    color: #999;
+}
+
 article p {
+    font-size: 18px;
     margin: 15px;
-    margin-left: 30px;
+    padding-left: 100px;
 }
 
 article p:nth-of-type(1)::after,
@@ -83,27 +97,24 @@ article p:nth-of-type(3)::after {
 }
 
 article p:nth-of-type(4)::after {
-    content: "- ONLY 4 SPOT AVAIBLE";
+    content: "- ONLY 4 SPOT AVAILABLE";
     color: red;
 }
 
 article p:nth-of-type(5)::after,
 article p:nth-of-type(6)::after {
-    content: "- AVAIBLE";
+    content: "- AVAILABLE";
     color: green;
-}
-
-article h2 {
-    text-align: center;
 }
 
 footer {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
+    border-top: 1px solid #999;
 }
 
-footer h3 {
+.footer-title {
     font-family: 'Cinzel', serif;
     margin: 20px;
 }
@@ -115,9 +126,10 @@ footer p {
 footer div a {
     margin: 5px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 50px;
     text-decoration: none;
     color: black;
+    font-size: 30px;
 }
 
 footer div a:first-child {
