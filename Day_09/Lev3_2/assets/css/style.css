@@ -1,0 +1,70 @@
+/*============================
+General Styles
+=========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* 
+font-family: 'Roboto', sans-serif;
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("http://www.supah.it/dribbble/008/008.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #565c73;
+    padding-top: 1rem;
+}
+
+h2 {
+    text-align: center;
+    color: #CDD4DE;
+    font-size: 10rem;
+    margin-top: 16rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #CDD4DE;
+    margin-top: 1rem;
+}
+
+h4 {
+    text-align: center;
+    color: #CDD4DE;
+    margin-top: 1rem;
+}
+
+div {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #565c73;
+    border: 1px solid #565c73;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div a:hover {
+    background-color: #565c7387;
+}
