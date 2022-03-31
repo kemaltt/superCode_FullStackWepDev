@@ -14,14 +14,43 @@ h1 {
 }
 
 p {
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 1.5rem 0;
+    padding: 1rem;
 }
 
 section {
     border: 0.2rem solid black;
-    padding: 1.5rem 3rem 1.5rem;
+    margin: .6em;
+    padding: 1rem;
 }
 
-section ul li:first-child ul:first-child {
-    font-size: 2rem;
+section ul {
+    padding-inline-start: 1.2em;
+}
+
+section ul li {
+    font-size: .8em;
+    line-height: 1.5em;
+    list-style: none;
+    padding-inline-start: none;
+}
+
+section ul li:first-child ul:first-child li:first-child ul:first-child li::before {
+    content: "🐶";
+}
+
+section ul li:first-child ul:first-child li:last-child ul:first-child li::before {
+    content: "🐱";
+}
+
+section ul li:nth-of-type(2) ul:first-child li:first-child ul:first-child li::before {
+    content: "🦜";
+}
+
+section ul li:last-child ul:first-child li:first-child ul:first-child li:before {
+    content: '🐍';
+}
+
+section ul li:last-child ul:first-child li:last-child ul:first-child li:before {
+    content: '🦎';
 }
