@@ -1,0 +1,28 @@
+/*============================
+General Styles
+=========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+div {
+    background-image: url("https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(15, 15, 16, 0.348);
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
