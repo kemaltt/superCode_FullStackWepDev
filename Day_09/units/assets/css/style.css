@@ -1,0 +1,126 @@
+/*============================
+General Styles
+=========================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+
+/* 
+EM bezieht sich immer auf das ElternElement zb .1em=50px-------------
+*/
+
+div {
+    font-size: 50px;
+}
+
+div p:first-child {
+    font-size: 0.5em;
+    /*25px*/
+}
+
+div p:nth-of-type(2) {
+    font-size: 0.7em;
+}
+
+div p:last-child {
+    font-size: 1em;
+    /*50px*/
+}
+
+
+/* 
+REM beziht sich immer auf das RootElement (HTML)-----------
+*/
+
+html {
+    font-size: 10px;
+}
+
+section h2:first-child {
+    font-size: 1rem;
+    /*10px  */
+}
+
+section h2:nth-of-type(2) {
+    font-size: 1.5rem;
+    /*15px*/
+}
+
+section h2:last-child {
+    font-size: 3.8rem;
+}
+
+
+/* % bezieht sich immer Parent element */
+
+article {
+    width: 50%;
+}
+
+article div:first-child {
+    height: 100px;
+    background: tomato;
+    width: 30%;
+}
+
+article div:nth-of-type(2) {
+    height: 100px;
+    background: gold;
+    width: 50%;
+}
+
+article div:nth-of-type(3) {
+    height: 100px;
+    background: coral;
+    width: 70%;
+}
+
+article img {
+    width: 100%;
+}
+
+
+/*  vw & vh beziehen sich auf die gesamt breite & höhe des Browsers */
+
+
+/* 1vw = 1% breite vom browser */
+
+
+/* 1vh = 1% höhe vom Browser */
+
+
+/*  padding / margin abstände bis 100px cool,danach mit vh/vw arbeiten oder % */
+
+main div:first-child {
+    margin: 10vh 0;
+    width: 90vw;
+    height: 50vh;
+    background: green;
+}
+
+main div:nth-of-type(2) {
+    margin: 10vh 0;
+    width: 90vw;
+    height: 50vh;
+    background: yellowgreen;
+}
+
+
+/* vmin & vmax nehmen jeweils den kleineren oder größen wert von vh oder vw */
+
+footer img {
+    width: 50vmin;
+}
+
+footer div img {
+    width: 30vmax;
+}
