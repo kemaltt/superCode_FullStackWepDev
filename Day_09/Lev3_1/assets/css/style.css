@@ -1,0 +1,52 @@
+/*============================
+General Styles
+=========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+h2 {
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+main>p:first-child {
+    font-size: 16px;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+}
+
+main img {
+    width: 100px;
+    border: 8px solid green;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+div {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+div p:first-child {
+    color: green;
+}
+
+ul,
+ol {
+    margin: 10px;
+    margin-left: 30px;
+}
