@@ -61,10 +61,10 @@ header div {
     width: 350px;
     height: 300px;
     margin: 0 auto;
-    margin-top: 13rem;
+    margin-top: 10rem;
     padding: 1rem;
     font-family: 'Gilda Display', serif;
-    background-image: linear-gradient(to bottom right, #8507e1, #3dc8d5);
+    background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
 }
 
 header div h2 {
@@ -78,5 +78,5 @@ header div p {
 }
 
 header div:hover {
-    background-image: linear-gradient(to bottom right, #3dc8d5, #8507e1);
+    background-image: linear-gradient(to bottom left, #3dc8d5, #8507e1);
 }
