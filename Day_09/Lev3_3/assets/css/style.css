@@ -23,18 +23,20 @@ farbe: #333, #fff, #3dc8d5, #8507e1, #ccc
 header {
     background-color: #333;
     height: 100vh;
+    padding-top: 1rem;
 }
 
-header>h2 {
+header h1 {
     color: #ccc;
     font-family: 'Maven Pro', sans-serif;
-    padding: 0 2rem;
+    padding-left: 1rem;
     letter-spacing: 0.2em;
 }
 
 nav {
     text-align: right;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
 }
 
 nav a {
@@ -61,10 +63,10 @@ header div {
     width: 350px;
     height: 300px;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 8rem;
     padding: 1rem;
     font-family: 'Gilda Display', serif;
-    background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
+    background-image: linear-gradient(to bottom left, #8507e1, #3d70d5, #3dc8d5);
 }
 
 header div h2 {
@@ -78,5 +80,59 @@ header div p {
 }
 
 header div:hover {
-    background-image: linear-gradient(to bottom left, #3dc8d5, #8507e1);
+    background-image: linear-gradient(to bottom left, #3dc8d5, #3d70d5, #8507e1);
+}
+
+
+/* MAIN================= */
+
+#sectionOne {
+    background-image: url("../img/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0 5rem 0 5rem;
+    padding-top: 26rem;
+}
+
+#sectionOne h2 {
+    font-size: 6rem;
+    margin: 0 0 0.5rem 1rem;
+}
+
+#sectionOne p {
+    font-size: 1.2rem;
+    font-family: 'Maven Pro', sans-serif;
+    margin-left: 1rem;
+    width: 35vw;
+    margin-bottom: 0.5rem;
+}
+
+#sectionTwo {
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+#sectionTwo img {
+    width: 55vw;
+    border-radius: 1rem;
+}
+
+#sectionTwo img,
+h2,
+h3 {
+    margin-left: 18rem;
+}
+
+#sectionTwo>h2 {
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+#sectionTwo>h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #333;
+    font-family: 'Maven Pro', sans-serif;
 }
