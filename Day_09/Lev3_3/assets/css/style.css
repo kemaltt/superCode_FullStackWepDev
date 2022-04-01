@@ -25,7 +25,7 @@ header {
     height: 100vh;
 }
 
-header h1 {
+header>h2 {
     color: #ccc;
     font-family: 'Maven Pro', sans-serif;
     padding: 0 2rem;
