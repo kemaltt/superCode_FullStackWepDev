@@ -2,15 +2,13 @@
 General Styles
 =========================*/
 
-* {
-    padding: 0;
-    margin: 0;
-    /* überlappend */
-    box-sizing: border-box;
+body {
+    padding: 1.7rem;
 }
 
 h1 {
     margin: 1rem 0 1rem 0;
+    border-top: 1px solid black;
 }
 
 p {
@@ -35,22 +33,22 @@ section ul li {
     padding-inline-start: none;
 }
 
-section ul li:first-child ul:first-child li:first-child ul:first-child li::before {
+section ul li:first-child ul:first-child li:first-child ul li::before {
     content: "🐶";
 }
 
-section ul li:first-child ul:first-child li:last-child ul:first-child li::before {
+section ul li:first-child ul:first-child li:last-child ul li::before {
     content: "🐱";
 }
 
-section ul li:nth-of-type(2) ul:first-child li:first-child ul:first-child li::before {
+section ul li:nth-of-type(2) ul li ul li::before {
     content: "🦜";
 }
 
-section ul li:last-child ul:first-child li:first-child ul:first-child li:before {
+section ul li:nth-of-type(3) ul li:first-child ul li::before {
     content: '🐍';
 }
 
-section ul li:last-child ul:first-child li:last-child ul:first-child li:before {
+section ul li:nth-of-type(3) ul li:last-child ul li::before {
     content: '🦎';
 }
