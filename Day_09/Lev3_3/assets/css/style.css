@@ -17,6 +17,9 @@ farbe: #333, #fff, #3dc8d5, #8507e1, #ccc
     box-sizing: border-box;
 }
 
+
+/* HEADER ===========*/
+
 header {
     background-color: #333;
     height: 100vh;
@@ -70,6 +73,10 @@ header div h2 {
     margin: 1rem 0 1rem 0;
 }
 
+header div p {
+    text-align: center;
+}
+
 header div:hover {
-    background-image: linear-gradient(to right, #3dc8d5, #8507e1);
+    background-image: linear-gradient(to bottom right, #3dc8d5, #8507e1);
 }
