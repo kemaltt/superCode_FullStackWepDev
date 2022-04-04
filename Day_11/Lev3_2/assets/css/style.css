@@ -1,0 +1,203 @@
+/*============================
+General Styles
+=========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* 
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000
+
+
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    /* überlappend */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header================== */
+
+header {
+    height: 100vh;
+    padding: 3rem 8rem;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #659d89;
+    font-weight: bold;
+}
+
+.header-title {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.header-title h1 {
+    color: #659d89;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.header-title p {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 900;
+    width: 400px;
+}
+
+.social-media {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.social-media img {
+    display: block;
+    width: 25px;
+    margin-left: auto;
+    margin-bottom: 0.5rem;
+}
+
+header h4::before {
+    content: "↓";
+    font-size: 1.5rem;
+    color: #666;
+    margin-right: 1rem;
+}
+
+
+/* Main============================ */
+
+.sectionOne {
+    height: 100vh;
+    padding: 3rem 8rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.sectionOne h2,
+.sectionOne p,
+.sectionTwo h2 {
+    color: #333;
+    margin-bottom: 3rem;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 250px;
+    margin: 1rem;
+}
+
+.image img:hover {
+    box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+}
+
+.sectionTwo {
+    height: 100vh;
+    padding: 3rem 8rem;
+}
+
+.resource1,
+.resource3 {
+    width: 600px;
+    margin-right: auto;
+    margin-bottom: 5rem;
+}
+
+.resource2,
+.resource4 {
+    width: 600px;
+    margin-left: auto;
+    margin-bottom: 5rem;
+}
+
+.resource1 img,
+.resource3 img {
+    display: block;
+    width: 600px;
+    margin-bottom: 0.6rem;
+}
+
+.resource2 img,
+.resource4 img {
+    display: block;
+    width: 600px;
+    margin-bottom: 0.6rem;
+}
+
+.resource1 img:hover {
+    box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+}
+
+.sectionTwo a {
+    text-decoration: none;
+    color: #666;
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+
+.sectionTwo h3 {
+    text-align: center;
+    margin: 1rem;
+    color: #333;
+}
+
+.sectionTwo h6 {
+    color: #666;
+    text-align: center;
+    margin: 1rem;
+}
+
+.sectionThree {
+    height: 100vh;
+    padding: 2rem 8rem;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* Footer================ */
+
+footer {
+    color: #333;
+}
+
+footer h2::before {
+    content: "↑";
+    color: #666;
+    margin-right: 1rem;
+}
+
+footer span {
+    color: #666;
+}
