@@ -112,7 +112,8 @@ header h4::before {
     margin: 1rem;
 }
 
-.image img:hover {
+.image img:hover,
+.sectionTwo img:hover {
     box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
