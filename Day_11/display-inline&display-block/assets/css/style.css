@@ -44,3 +44,10 @@ ul li {
     padding: 20px 10px;
     border-radius: 10px;
 }
+
+img {
+    width: 50px;
+    display: block;
+    margin: auto;
+    background-color: aqua;
+}

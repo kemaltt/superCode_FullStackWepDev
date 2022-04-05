@@ -1,16 +1,16 @@
-/*============================
-General Styles
-=========================*/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /* 
 farbe (background/border): #eee, #ccc 
 farbe text: #659d89, #333, #666, #000
 
-
 font-family: 'Roboto', sans-serif;
 */
+
+
+/*============================
+General Styles
+=========================*/
 
 * {
     padding: 0;
@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-body {
+html {
     background-color: #eee;
     font-family: 'Roboto', sans-serif;
 }
@@ -28,7 +28,7 @@ body {
 /* Header================== */
 
 header {
-    height: 100vh;
+    /* height: 100vh; */
     padding: 3rem 8rem;
     border-bottom: 1px solid #ccc;
 }
@@ -49,8 +49,7 @@ nav a {
 }
 
 .header-title {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin: 6rem 0 6rem 0;
 }
 
 .header-title h1 {
@@ -64,19 +63,21 @@ nav a {
     color: #000;
     font-size: 2rem;
     font-weight: 900;
-    width: 400px;
+    /* width: 400px; */
+    margin: 0 45vw 0 0;
 }
 
 .social-media {
     margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 
 .social-media img {
     display: block;
-    width: 25px;
-    margin-left: auto;
-    margin-bottom: 0.5rem;
+    /* margin-left: auto; */
+    margin: 0 0 0 auto;
+    width: 2rem;
+    margin-top: 0.5rem;
 }
 
 header h4::before {
@@ -87,11 +88,10 @@ header h4::before {
 }
 
 
-/* Main============================ */
+/* Main Section1============================ */
 
 .sectionOne {
-    height: 100vh;
-    height: 100%;
+    /* height: 100vh; */
     padding: 3rem 8rem;
     border-bottom: 1px solid #ccc;
 }
@@ -100,7 +100,7 @@ header h4::before {
 .sectionOne p,
 .sectionTwo h2 {
     color: #333;
-    margin-bottom: 3rem;
+    margin-bottom: 9vh;
 }
 
 .image {
@@ -112,7 +112,8 @@ header h4::before {
     margin: 1rem;
 }
 
-.image img:hover {
+.image img:hover,
+.sectionTwo img:hover {
     box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
@@ -120,14 +121,8 @@ header h4::before {
     cursor: pointer;
 }
 
-.sectionTwo img:hover {
-    box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
-    border-radius: 0.5rem;
-    width: 605px;
-    cursor: pointer;
-}
+
+/* Main Section2============ */
 
 .sectionTwo {
     padding: 3rem 8rem;
@@ -197,10 +192,9 @@ header h4::before {
 /* Footer================ */
 
 footer {
-    margin-top: 7rem;
+    margin: 7rem 0 1rem 0;
     color: #333;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 footer h2 {
