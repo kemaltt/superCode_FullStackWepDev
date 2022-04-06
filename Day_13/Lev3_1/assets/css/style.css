@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu&display=swap');
+
+/* 
+font-family: 'Monoton', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+Nutze die Farben #070707, #9d9f9f, #f4f7f8 und #AC8059
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #1D2025;
+}
+
+html {
+    color: #9d9f9f;
+}
+
+
+/* =========================
+           Navbar
+============================= */
+
+nav {
+    border-bottom: 1px solid #f4f7f8;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+}
+
+nav div {
+    display: inline-block;
+}
+
+.logo {
+    width: 40%;
+    margin-right: 4rem;
+}
+
+.logo h1,
+.logo p {
+    display: inline-block;
+}
+
+.logo h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.logo p {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1rem;
+}
+
+.navbar {
+    width: 50%;
+    padding-left: 4rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 5rem;
+}
+
+nav ul li:hover {
+    color: #f4f7f8;
+    cursor: pointer;
+}
+
+
+/* ===================================
+                Main
+================================= */
+
+main {
+    margin-top: 2rem;
+    display: flex;
+}
+
+main div {
+    display: inline-block;
+}
+
+main .article {
+    width: 50%;
+    padding: 14rem 0 0 13rem;
+}
+
+main .article h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #f4f7f8;
+    margin-bottom: 1rem;
+}
+
+main .article p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color: #AC8059;
+}
+
+main .image {
+    width: 50%;
+}
+
+main .image img {
+    width: 30%;
+    height: 75vh;
+    margin-right: 1rem;
+}
+
+
+/*========================== 
+           Footer
+============================ */
+
+footer {
+    position: relative;
+    margin: 1rem 0 0 2rem;
+    padding-bottom: 1rem;
+}
+
+footer div {
+    display: inline-block;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 2rem;
+}
+
+footer .social-media {
+    width: 80%;
+}
+
+footer .icon {
+    width: 19%;
+}
+
+footer .icon a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #9d9f9f;
+    padding: 5px 10px;
+    margin-left: 1rem;
+    border: 1px solid #AC8059;
+    border-radius: 50%;
+}
+
+footer li:hover,
+footer a:hover {
+    color: #f4f7f8;
+    cursor: pointer;
+}

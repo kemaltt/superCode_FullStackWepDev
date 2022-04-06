@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu&display=swap');
+
+/* 
+font-family: 'Monoton', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+Nutze die Farben #070707, #9d9f9f, #f4f7f8 und #AC8059
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #070707;
+}
+
+html {
+    color: #f4f7f8;
+}
+
+
+/* =========================
+              Header
+============================= */
+
+nav {
+    border-bottom: 1px solid #f4f7f8;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+nav div {
+    display: inline-block;
+}
+
+.logo {
+    width: 40%;
+    position: relative;
+}
+
+.logo h1,
+.logo p {
+    display: inline-block;
+}
+
+.logo h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.logo p {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 1rem;
+}
+
+.navbar {
+    width: 60%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/* nav .logo {
+    position: absolute;
+    left: 0;
+}
+
+nav .navbar {
+    position: absolute;
+    right: 0;
+} */

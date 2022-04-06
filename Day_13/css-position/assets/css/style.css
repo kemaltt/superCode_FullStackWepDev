@@ -1,0 +1,83 @@
+section {
+    height: 100vh;
+    background-color: aqua;
+}
+
+section:nth-of-type(2) {
+    background-color: tomato;
+    height: 100vh;
+}
+
+section:nth-of-type(2) {
+    background-color: green;
+    height: 100vh;
+}
+
+
+/*=================
+ Fixed 
+
+ bleibt
+ ====================*/
+
+
+/* section ul {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+} */
+
+
+/*=================
+          sticky
+(nur im Container
+ ====================*/
+
+
+/* section ul {
+    position: sticky;
+    top: 0;
+} */
+
+
+/* =======================
+position :relative
+=========================*/
+
+section {
+    height: 100vh;
+    background-color: tomato;
+    margin-top: 10vh;
+    /* position: relative; */
+    /* wenn relative raus> posizioniren body */
+    position: relative;
+    width: 50vw;
+}
+
+
+/*============
+absolute 
+bezieht sich immer eltern element,die relativ ist
+========== */
+
+div {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+div:nth-of-type(1) {
+    background-color: gold;
+    right: 0;
+}
+
+div:nth-of-type(2) {
+    background-color: aqua;
+    top: 20px;
+}
+
+div:nth-of-type(3) {
+    background-color: blueviolet;
+    top: 10px;
+    left: 20px;
+}

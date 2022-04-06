@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+
+#f9cdad,#c8c8a9
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #EEEFE3;
+}
+
+section {
+    position: relative;
+    padding: 2rem;
+}
+
+.image {
+    background-image: url("https://cdn.dribbble.com/users/1789165/screenshots/6819197/attachments/1455528/____.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 60vw;
+    height: 90vh;
+}
+
+
+/* .image {
+    position: absolute;
+    right: 0;
+}
+
+img {
+    width: 50vw;
+} */
+
+.title {
+    position: absolute;
+    left: 0;
+    margin: 20vh 0 10vh 4rem;
+    width: 50vw;
+}
+
+.title h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.title p {
+    width: 30vw;
+    margin: 2rem 0 3rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    margin: 1rem 0 0 6rem;
+    background-color: #f9cdad;
+    padding: 2px 10px 2px 10px;
+    border-radius: 20px;
+}
