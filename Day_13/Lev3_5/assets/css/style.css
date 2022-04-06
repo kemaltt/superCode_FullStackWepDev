@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+/* ===============================
+                 Header 
+==================================*/
+
+header {
+    background-image: url("https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-title {
+    padding: 19rem 0 0 5rem;
+}
+
+.header-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-right: 81vw;
+    margin-bottom: 1rem;
+}
+
+nav {
+    position: sticky;
+    bottom: 0;
+    top: 0;
+    padding: 1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav div {
+    display: inline-block;
+}
+
+.nav-title {
+    width: 50%;
+}
+
+.nav-title h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-list {
+    width: 40%;
+    margin-left: 1.5rem;
+}
+
+.nav-list li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 4rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+        Main
+============================ */
+
+section {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+}
+
+section div img {
+    width: 30vw;
+    height: 30vh;
+    margin: 1rem;
+}
+
+article {
+    margin: 3rem 0 0 3rem;
+    padding: 50px;
+}
+
+article h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+article p {
+    margin: 15px;
+    margin-left: 30px;
+}
+
+article p:nth-of-type(1)::after,
+article p:nth-of-type(2)::after,
+article p:nth-of-type(3)::after {
+    content: "- SOLD OUT";
+    color: orange;
+}
+
+article p:nth-of-type(4)::after {
+    content: "- ONLY 4 SPOT AVAIBLE";
+    color: red;
+}
+
+article p:nth-of-type(5)::after,
+article p:nth-of-type(6)::after {
+    content: "- AVAIBLE";
+    color: green;
+}
