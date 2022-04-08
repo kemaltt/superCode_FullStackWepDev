@@ -54,6 +54,10 @@ img {
     font-weight: 400;
 }
 
+.title h2 span {
+    font-size: 4rem;
+}
+
 .title p {
     width: 30vw;
     margin: 2rem 0 3rem 0;
