@@ -1,3 +1,3 @@
-# Forms_1_1
+# forms_1_1
 
-https://kemaltt.github.io/Forms_1_1/
+https://kemaltt.github.io/forms_1_1/
