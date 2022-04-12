@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 50vw;
+    margin: 20vh auto;
+}
+
+legend {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+input,
+label {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+div input[type="submit"],
+div input[type="submit"] {
+    margin: 1rem;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:ital@1&family=Roboto+Mono&family=Rubik+Microbe&family=Titillium+Web&display=swap');
+
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Titillium Web', sans-serif;
+
+farbe #AAB8C3,#D8C164, #4A9EBE,#C198FB,#4BB56B,#68F33C,#1C272B
+*/
+
+
+/*============================
+General Styles
+=========================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 30vw;
+    height: 65vh;
+    margin: 20vh auto;
+    background-color: #1C272B;
+    color: white;
+    text-align: center;
+    padding: 4vh 1% 0 1%;
+}
+
+main a:not(.password) {
+    text-decoration: none;
+    color: white;
+}
+
+.signUp-active,
+.logIn-active {
+    font-size: 1.5rem;
+    background-color: #4BB56B;
+    padding: 1rem 3rem;
+}
+
+.signUp-active:hover,
+.logIn-active:hover {
+    background-color: #68F33C;
+}
+
+.signUp-inactive,
+.logIn-inactive {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+}
+
+.signUp-inactive:hover,
+.logIn-inactive:hover {
+    background-color: #68F33C;
+}
+
+h2 {
+    margin: 5vh 0 4vh 0;
+    font-size: 2rem;
+}
+
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 28vw;
+    margin: 0 auto;
+    height: 35px;
+    margin: 3vh 0 3vh 0;
+    background-color: #1C272B;
+}
+
+input[name="name"] {
+    right: 9px;
+    height: 35px;
+    width: 14vw;
+    background-color: #1C272B;
+}
+
+input[name="surname"] {
+    left: 9px;
+    height: 35px;
+    width: 13.5vw;
+    background-color: #1C272B;
+}
+
+.login,
+.started {
+    display: block;
+    margin-top: 5vh;
+    font-size: 2.3rem;
+    background-color: #4BB56B;
+    padding: 1rem 3rem;
+}
+
+.login {
+    margin-top: 7vh;
+}
+
+.password {
+    position: relative;
+    top: 20px;
+    color: #4BB56B;
+    display: block;
+    text-align: right;
+}

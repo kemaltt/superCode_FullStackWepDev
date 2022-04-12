@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    /* border: 1px solid black; */
+    width: 30vw;
+    margin: 20vh auto;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1vh;
+}
+
+label:not(label[for="thema"])::after {
+    content: "*";
+    color: red;
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+input[placeholder="Vornamne"] {
+    margin-left: 2px;
+}
+
+input[placeholder="Vornamne"],
+input[placeholder="Nachnamne"] {
+    width: 14.5vw;
+    height: 30px;
+    margin-bottom: 1vh;
+}
+
+input[type="email"] {
+    width: 30vw;
+    height: 30px;
+    margin-bottom: 1vh;
+}
+
+select {
+    width: 30vw;
+    height: 30px;
+    margin-bottom: 1vh;
+}
+
+input[ type="submit"] {
+    width: 30vw;
+    height: 30px;
+    background-color: #4A9EBE;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+input[ type="submit"]:hover {
+    background-color: rgb(41, 39, 39);
+    cursor: pointer;
+}

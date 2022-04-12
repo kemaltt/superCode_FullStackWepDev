@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:ital@1&family=Roboto+Mono&family=Rubik+Microbe&family=Titillium+Web&display=swap');
+
+/* 
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Titillium Web', sans-serif;
+
+farbe #AAB8C3,#D8C164, #4A9EBE,#C198FB
+*/
+
+
+/*============================
+General Styles
+=========================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 40vw;
+    margin: 10vh auto;
+    border: 3px solid #AAB8C3;
+    border-radius: 25px;
+}
+
+.form-header {
+    background-color: #4A9EBE;
+    color: white;
+    padding: 2vh;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #4A9EBE;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 1vh;
+}
+
+h2 span {
+    position: relative;
+    right: 10px;
+    color: white;
+    background-color: #4A9EBE;
+    font-size: 1rem;
+    padding: 2px 8px;
+    border-radius: 50px;
+}
+
+.title-container {
+    background-color: rgb(248, 244, 239);
+    padding: 2vh 4% 2vh 4%;
+    margin: 2vh 4% 2vh 4%;
+}
+
+input,
+label {
+    display: block;
+    font-size: 1.2rem;
+    padding: 2px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+input:not(input[type="submit"],
+[type="checkbox"]) {
+    width: 100%;
+}
+
+.form-button {
+    padding: 2vh 4% 2vh 4%;
+}
+
+input[type="submit"] {
+    display: inline;
+    margin-right: 10rem;
+    background-color: #4A9EBE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(107, 19, 107);
+}
+
+input[ type="checkbox"],
+label[for="checkbox"] {
+    display: inline-block;
+    font-size: 14px;
+}
