@@ -88,6 +88,10 @@ input[name="surname"] {
     background-color: #1C272B;
 }
 
+main form input {
+    box-shadow: -0.5px 1px 4px white;
+}
+
 .login,
 .started {
     display: block;
