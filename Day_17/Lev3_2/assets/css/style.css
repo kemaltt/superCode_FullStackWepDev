@@ -23,7 +23,7 @@ General Styles
 
 main {
     width: 30vw;
-    height: 65vh;
+    height: 60vh;
     margin: 20vh auto;
     background-color: #1C272B;
     color: white;
@@ -95,14 +95,14 @@ main form input {
 .login,
 .started {
     display: block;
-    margin-top: 5vh;
+    margin-top: 8vh;
     font-size: 2.3rem;
     background-color: #4BB56B;
     padding: 1rem 3rem;
 }
 
 .login {
-    margin-top: 7vh;
+    margin-top: 10vh;
 }
 
 .password {
