@@ -60,3 +60,7 @@ input[ type="submit"]:hover {
     background-color: rgb(41, 39, 39);
     cursor: pointer;
 }
+
+textarea {
+    width: 30vw;
+}

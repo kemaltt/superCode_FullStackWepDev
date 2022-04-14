@@ -1,0 +1,4 @@
+.placeholder::placeholder {
+    color: red;
+    font-style: italic;
+}
