@@ -149,29 +149,61 @@ console.log("it works");
 
 
 //DAY_2=============Comparison===============================================
-//==compare value
-//===compare value § type
+// ########## Comparision ################
+// == compare value
+// === compare value & type
 
-// console.log(3 == 3); //true
-// console.log(3 === 3); //true  =>>>type und value vergleich
-// console.log(3 === 5); //false
-// console.log(3 == '3'); //true
-// console.log(3 === '3'); //false
-// console.log(3 == 'three'); //false
-// // ----------------------
-// console.log(1 == true); //true
-// console.log(0 == false); //true
-// console.log(0 === false); //false
-// console.log(1 === true); //false
-
-//---------------------
-
-// !-> not
+console.log(3 == 3); //true
+console.log(3 === 3); //true
+console.log(3 === 5); //false
+console.log(3 == "3"); //true
+console.log(3 === "3"); //false
+console.log(3 == "three"); //false
+// -------
+console.log('%c---------', 'color: tomato');
+console.log(1 == true); //true
+console.log(0 == false); //true
+console.log(1 === true); //false
+console.log(0 === false); //false
+console.log('%c---------', 'color: tomato');
+console.log(3 === 4); //false
+console.log("5" === 5); //false
+console.log("5" === "5"); //true
+// -------
+console.log('%c---------', 'color: tomato');
+// ! -> not
 // != not equal
 // !== not equal type
+console.log(3 != 3); //false
+console.log(3 !== 3); //false
+console.log(3 !== "3"); //true
+console.log(0 != true); //true
+console.log(0 != false); //false
+console.log(1 !== true); //true
+// -------
+console.log('%c---------', 'color: tomato');
+// greater and less
+// < less than
+// > greater than
+// <= less or equal
+// >= greater or equal
+console.log(3 > 2); //true
+console.log(4 < 6); //true
+console.log(4 >= 6); //false
+console.log(4 >= 4); //true
+console.log('%c---------', 'color: tomato');
+console.log("a" == "a"); //true
+console.log("A" > "a"); //false
+console.log("Z" > "A"); //true
+console.log("s" < "K"); //false
+console.log("!" > "A"); //false
+console.log('%c-strange stuff-', 'color: tomato');
+// strange stuff of JS
+console.log(null > 0); //false
+console.log(null == 0); //false
+console.log(null >= 0); //true
 
-// console.log('Z' > 'A');
-// console.log(null > 0);
+// null ist leer, da ist nichts (null ist ein Zustand)
 
 
 //innerHTML----------------DOM----------------------
@@ -199,7 +231,8 @@ console.log(divContainer);
 divContainer.innerHTML = ' <p>Ich bin ein p tag</p>'
 divContainer.style.backgroundColor = 'yellow'
 
-//unterschied document.write & innerHTML ----------------
+//unterschied document.write & innerHTML -----------------------
+
 //document.write fügt immer zum immer zum Ende des Bodys hinzu
 // innerHTML spricht gezielt ein Element an
 

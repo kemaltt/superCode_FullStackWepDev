@@ -6,7 +6,7 @@
 
 form {
     /* border: 1px solid black; */
-    width: 25vw;
+    width: 350px;
     height: 40vh;
     margin: 20vh auto;
     background-color: #d6dee4;
@@ -23,7 +23,7 @@ h2 {
 
 input {
     display: block;
-    width: 23vw;
+    width: 90%;
     height: 5vh;
     margin: 1vh auto;
     text-indent: 5px;
@@ -31,6 +31,7 @@ input {
 }
 
 textarea {
+    width: 90%;
     display: block;
     margin: 1vh auto;
     text-indent: 5px;
@@ -38,6 +39,7 @@ textarea {
 }
 
 input[ type="submit"] {
+    width: 90%;
     background-color: #5CD8A5;
     color: white;
     font-size: 1rem;
