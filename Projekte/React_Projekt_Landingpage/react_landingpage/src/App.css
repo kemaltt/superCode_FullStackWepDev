@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ======Header Styling=============================== */
+
+header {
+    background-color: #018005;
+    text-align: center;
+    padding: 10vh 10%;
+}
+
+h1 {
+    color: #fff;
+    margin: 2vh 0;
+    font-size: 4rem;
+}
+
+.header_line {
+    width: 30%;
+    height: 1px;
+    background-color: #fff;
+    margin: 4vh auto;
+}
+
+header>p {
+    line-height: 30px;
+    margin: 5vh 0;
+    padding: 0 5%;
+}
+
+header .description {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+header .description h4 {
+    color: #fff;
+    font-size: 3.5rem;
+    margin-bottom: 2vh;
+}
+
+header .description p {
+    font-weight: bold;
+}
+
+header .description .line {
+    width: 1px;
+    height: 80px;
+    background-color: #fff;
+    margin-left: 20%;
+}
+
+
+/* =========Main styling==================================== */
+
+main {
+    padding: 10vh 4%;
+}
+
+.main_description {
+    padding: 5vh 5%;
+}
+
+.main_description h3 {
+    color: #018005;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.main_description>p {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 8vh;
+}
+
+main article {
+    position: relative;
+    padding: 0 12%;
+}
+
+main .article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main article p {
+    line-height: 30px;
+    margin: 2vh 0;
+}
+
+main article img {
+    width: 25px;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+
+/* =========Footer================================ */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3% 4vh 3%;
+}
+
+footer .first_div,
+footer .third_div {
+    width: 4%;
+    height: 720px;
+    background-color: #CCC9C9;
+}
+
+footer .second_div {
+    width: 90%;
+}
+
+footer .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer .card_gallery {
+    width: 200px;
+    margin-top: 4vh;
+}
+
+footer .card_gallery img {
+    width: 280px;
+    height: 200px;
+}
+
+footer .card_gallery h4 {
+    margin: 2vh 0;
+    color: #88BBE2;
+}
+
+footer .card_gallery p {
+    line-height: 25px;
+    margin: 2vh 0;
+}
+
+footer .card_gallery span {
+    color: #38FBB8;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
